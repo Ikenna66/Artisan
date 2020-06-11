@@ -1,0 +1,317 @@
+.container {
+    width: 1366px;
+    min-height: 1013px;
+  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    min-height: 90px; 
+    display: flex;
+   justify-content: space-between;
+  
+}
+
+
+main {
+    width: 1366px;
+    min-height: 432px;
+    background-image: url(images/mainphotojpg);
+}
+
+.cards {
+    min-height: 400px;
+    display: flex;
+    margin-top: 20px;
+
+}
+.card1 {
+    background-color: #F6922A;
+    width: 50%;
+    flex: 1;
+
+}
+.card2 {
+    width: 50%;
+    flex: 1;
+    background-image: url(images/bike-mech-main.jpg);
+  
+}
+
+main h1 {
+    font-size: 80px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    padding-top: 120px;
+    padding-left: 50px;
+    text-align: left;
+}
+main p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    padding-left: 55px;
+    padding-top: 20px;
+    line-height: 30px;
+    margin-right: 850px;
+    text-align: left;
+    margin-bottom: 1000px;
+    
+}
+
+.card1 h1 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-left: 50px;
+    text-align: left;
+    line-height: 50px;
+    margin-right: 70px;
+}
+
+.cardbutton a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+   text-align: left;
+   border-radius: 2rem;
+   border-width: 0.2rem;
+   border-style: solid;
+   padding-left: 4%;
+   padding-right: 4%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+}
+
+.cardbutton {
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+.navtext {
+    min-height: 70px;
+}
+
+.navtext h1 {
+    font-size: 30px;
+    padding-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #2C3142;
+    
+}
+.newcard {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newcard1 {
+    width: 33%;
+    background-color: tomato;
+    min-height: 300px;
+    background-image: url(images/carpenter.jpg);
+}
+
+.newcard2 {
+    width: 33%;
+    background-color: blueviolet;
+    min-height: 300px;
+    background-image: url(images/tailor.jpg);
+    
+}
+
+
+.newcard3 {
+    width: 33%;
+    background-color: brown;
+    min-height: 300px;
+    background-image: url(images/hairdresser.jpg);
+}
+
+.newcardtitle {
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newcardtitle1 {
+   background-color: #2C3142;
+   min-height: 90px;
+   width: 33%;
+}
+.newcardtitle2 {
+    background-color: #BFC0C0;;
+    min-height: 90px;
+    width: 33%; 
+ }
+ .newcardtitle3 {
+    background-color: #FDF6ED;
+    min-height: 90px;
+    width: 33%; 
+ }
+
+ .newcardtitle h1 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-top: 15px;
+ }
+
+ .newcardtitle p {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 50px;
+    font-weight: 200;
+    padding-top: 5px;
+ }
+
+ .newcardtitle3 h1 {
+    font-size: 30px;
+    color: #2C3142;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-top: 15px;
+ }
+
+ .newcardtitle3 p {
+    color: #2C3142;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 50px;
+    font-weight: 200;
+    padding-top: 5px;
+ }
+
+ .logo {
+     width: 33%;
+     min-height: 123px;
+ }
+
+ .textbox {
+     width: 33%;
+     min-height: 123px;
+     display: flex;
+     justify-content: space-between;
+ }
+ nav {
+     width: 33%;
+     min-height: 123px;
+   
+ }
+
+ .textbox h1{
+font-family: 'Source Sans Pro', sans-serif;
+padding-top: 50px;
+
+ }
+ 
+ .textbox a {
+    text-decoration: none;
+    color: white;  
+ }
+
+.signup {
+    width: 90px;
+}
+
+ .signup a{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    border-radius: 2rem;
+    background-color: #F6922A;
+    border-style: solid;
+ }
+
+ .signup h1 {
+     text-align: right;
+ }
+
+
+ .login {
+    width: 390px;
+    text-align: right;  
+  }
+
+  .login a {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 2rem;
+    background-color: #2C3142;
+    border-style: solid;
+  }
+
+
+  .navbutton {
+      display: inline-block;
+      position: relative;
+      margin-left: 70px;
+      margin-top: 60px;
+      text-decoration: none; 
+      
+
+  }
+
+  .dropdown {
+      display: none;
+      position: absolute;
+      background-color: #2C3142;
+      width: 100px;
+      transition: ease-in-out;
+  }
+
+  .navbutton:hover .dropdown {
+    display: block;
+  }
+
+  .dropdown .navbutton {
+    margin-left: -0px;
+    margin-top: 10px;
+ 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    
+  }
+  
+  .navbutton a {
+      text-decoration: none;
+      color: #2C3142;
+      font-family: 'Source Sans Pro', sans-serif;
+    
+  }
+
+  .navbutton:hover a{
+    color: #F6922A;
+ 
+ }
+  .dropdown a {
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.dropdown .navbutton:hover a{
+    color: #F6922A;
+}
+
+.dropdown .navbutton a {
+    color: white;
+}
+
