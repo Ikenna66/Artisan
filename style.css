@@ -17,7 +17,8 @@
 main {
     width: 1366px;
     min-height: 432px;
-    background-image: url(images/mainphotojpg);
+   
+    background-image: url(images/mainphotojpg); 
 }
 
 .cards {
